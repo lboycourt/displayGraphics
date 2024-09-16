@@ -19,14 +19,19 @@ public class Main extends JPanel {
 //Create a paintComponent() method to override the one in JPanel. The drawing happens here.
 
 public void paintComponent(Graphics g) {
+//black background
 g.setColor(Color.BLACK);
 g.fillRect(120, 15, 60, 150);
+//red light
 g.setColor(Color.RED);
 g.fillOval(130, 20, 40, 40);
+//yellow light
 g.setColor(Color.YELLOW);
 g.fillOval(130, 70, 40, 40);
+//green light
 g.setColor(Color.GREEN);
 g.fillOval(130, 120, 40, 40);
+//text
 g.setColor(Color.black);
 g.drawString("traffic light", 200, 90);
 }
